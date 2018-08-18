@@ -21,7 +21,16 @@ pod install
 @IBOutlet weak var gradientView: HVGradientView!
 ```
 4. Set your custom properties like topColor, bottomColor, CornerRadius and Gradient direction.
-5. Gradient direction can be horizontal, vertical or diagonal.
+5. Gradient direction can be:
+##### Horizontal
+<img src="https://github.com/Harsh061/eduwings/blob/master/eduwings/assets/img/Screen%20Shot%202018-08-18%20at%208.57.12%20AM.png" width="200" height="100" title="horizontal">
+
+##### Vertical
+<img src="https://github.com/Harsh061/eduwings/blob/master/eduwings/assets/img/Screen%20Shot%202018-08-18%20at%208.57.36%20AM.png" width="200" height="100" title="horizontal">
+
+##### Diagonal
+<img src="https://github.com/Harsh061/eduwings/blob/master/eduwings/assets/img/Screen%20Shot%202018-08-18%20at%208.57.58%20AM.png" width="200" height="100" title="horizontal">
+
 #### Example:
 ```
 private func setupGradientView() {
